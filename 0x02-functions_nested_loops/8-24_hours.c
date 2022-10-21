@@ -4,7 +4,7 @@
  * Jack_bauer - Print every minute of the day of
  *              Jack Bauer, Starting from 00:00 to 23:59.
  */
-void Jack_bauer(void)
+void jack_bauer(void);
 {
 	int hour, minute;
 
