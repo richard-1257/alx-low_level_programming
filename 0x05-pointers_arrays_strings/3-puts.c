@@ -2,6 +2,7 @@
 /**
  * _puts - prints a sting
  * @str: the string
+ *
  * Return: the lenght of the string
  */
 void _puts(char *str)
