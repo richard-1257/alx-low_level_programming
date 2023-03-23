@@ -13,7 +13,7 @@ In this project, I practiced important of Makefiles.
 - [main.c](https://github.com/richard-1257/alx-low_level_programming/blob/master/0x1C-makefiles/main.c): Main C function that runs the function defined in [school.c](https://github.com/richard-1257/alx-low_level_programming/blob/master/0x1C-makefiles/school.c)
 
 ## Header Files 📁
--[m.h](https://github.com/richard-1257/alx-low_level_programming/blob/master/0x1C-makefiles/m.h): Header file defining the function prototype used in `school`
+- [m.h](https://github.com/richard-1257/alx-low_level_programming/blob/master/0x1C-makefiles/m.h): Header file defining the function prototype used in `school`
 
 
 ## Tasks 📃
