@@ -3,7 +3,7 @@
 
 /**
  * jump_search - searches for a value in an array of
- * integers using the jump search algorithm
+ * integers using the Jump search algorithm
  *
  * @array: input array
  * @size: size of the array
@@ -12,7 +12,7 @@
  */
 int jump_search(int *array, size_t size, int value)
 {
-	int index, m. k, prev;
+	int index, m, k, prev;
 
 	if (array == NULL || size == 0)
 		return (-1);
