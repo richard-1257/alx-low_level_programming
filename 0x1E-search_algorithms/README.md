@@ -96,3 +96,36 @@ Function Prototypes:
 
 - 6. Big O #4
   - [6-O](https://github.com/richard-1257/alx-low_level_programming/blob/master/0x1E-search_algorithms/6-O): Text file containing the space complexity of the following algorithm: 
+
+
+```python
+int **allocate_map(int n, int m)
+{
+    int **map;
+
+    map = malloc(sizeof(int *) * n);
+    for (size_t i = 0; i < n; i++)
+    {
+        map[i] = malloc(sizeof(int) * m);
+		}
+		return (map);
+}
+```
+
+- 7. Jump search
+  - [100-jump.c](https://github.com/richard-1257/alx-low_level_programming/blob/master/0x1E-search_algorithms/100-jump.c): C function that searches for a value in a sorted array of integers using jump search.
+  - Uses the square root of the size of the array as the jump step.
+  - Assumes the array is sorted in ascending order and that the value to search for is not repeated in the array.
+  - If the value is not present or the array is `NULL`, returns `-1`.
+    - Otherwise, returns the index where `value` is located.
+
+- 8. Big O #5
+  - [101-O](https://github.com/richard-1257/alx-low_level_programming/blob/master/0x1E-search_algorithms/101-O): Text file containing the average case time complexity of jump search in an array of size `n` using `step = sqrt(n)`.
+
+- 9. Interpolation search
+  - [102-interpolation.c](https://github.com/richard-1257/alx-low_level_programming/blob/master/0x1E-search_algorithms/102-interpolation.c): C function that searches for a value in a sorted array of integers using interpolation search.
+  - Assumes the array is sorted in ascending order.
+  - If the value is not present or the array is `NULL`, returns `-1`.
+    - Otherwise, returns the first index where `value` is located.
+
+- 10. Exponential search 
