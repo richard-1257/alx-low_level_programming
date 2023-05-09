@@ -81,3 +81,18 @@ Function Prototypes:
   - Assumes the array is sorted in ascending order and that the value to search for is not repeated in the array.
   - If the value is not present or the array is `NULL`, returns `-1`.
     - Otherwise, returns the index where `value` is located. 
+
+- 2. Big O #0
+  - [2-O](https://github.com/richard-1257/alx-low_level_programming/blob/master/0x1E-search_algorithms/2-O): Text file containing the worst case time complexity of linear search.
+
+- 3. Big O #1
+  - [3-O](https://github.com/richard-1257/alx-low_level_programming/blob/master/0x1E-search_algorithms/3-O): Text file containing the worst case space complexity of iterative linear search.
+
+- 4. Big O #2
+  - [4-O](https://github.com/richard-1257/alx-low_level_programming/blob/master/0x1E-search_algorithms/4-O): Text file containing worst case case time complexity of binary search.
+
+- 5. Big O #3
+  - [5-O](https://github.com/richard-1257/alx-low_level_programming/blob/master/0x1E-search_algorithms/5-O): Text file containing the worst case space complexity of binary search.
+
+- 6. Big O #4
+  - [6-O](https://github.com/richard-1257/alx-low_level_programming/blob/master/0x1E-search_algorithms/6-O): Text file containing the space complexity of the following algorithm: 
