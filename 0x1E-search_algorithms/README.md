@@ -129,3 +129,19 @@ int **allocate_map(int n, int m)
     - Otherwise, returns the first index where `value` is located.
 
 - 10. Exponential search 
+- [103-exponential.c](https://github.com/richard-1257/alx-low_level_programming/blob/master/0x1E-search_algorithms/103-exponential.c): C function that searches for a value in a sorted array of integers using exponential search.
+- Uses powers of 2 as exponential ranges to search the array.
+- Assumes the array is sorted in ascending order.
+- If the value is not present or the array is `NULL`, returns `-1`.
+  - Otherwise, returns the first index where `value` is located. 
+
+- 11. Advanced binary search
+- [104-advanced_binary.c](https://github.com/richard-1257/alx-low_level_programming/blob/master/0x1E-search_algorithms/104-advanced_binary.c): C function that searches for a value in a sorted array of integers using advanced binary search.
+- Assumes the array is sorted in ascending order.
+- If the value is not present or the array is `NULL`, returns `-1`.
+  - Otherwise, returns the first index where `value` is located.
+
+- 12. Jump search in a singly linked list
+
+
+-  
