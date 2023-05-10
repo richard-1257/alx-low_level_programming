@@ -142,6 +142,20 @@ int **allocate_map(int n, int m)
   - Otherwise, returns the first index where `value` is located.
 
 - 12. Jump search in a singly linked list
+- [105-jump_list.c](https://github.com/richard-1257/alx-low_level_programming/blob/master/0x1E-search_algorithms/105-jump_list.c): C function that searches for a value in a `listint_t` sorted singly linked list of integers using jump search.
+- Uses the square root of the list size as the jump step.
+- Assumes that the singly linked list is sorted in ascending order.
+  - If the value is not present or the head of the list is `NULL`, returns `NULL`.
+  - Otherwise, returns a pointer to the first node where `value` is located.
 
+- 13. Linear search in a skip list
+- [106-linear_skip.c](https://github.com/richard-1257/alx-low_level_programming/blob/master/0x1E-search_algorithms/106-linear_skip.c): C function that searches for a value in a `skiplist_t` sorted skipped linked list of integers using jump search.
+- Assumes that the singly linked list is sorted in ascending order
+  - If the value is not present or the head of the list is `NULL`, returns `NULL`.
+  - Otherwise, returns a pointer to the first node where `value` is located. 
 
--  
+- 14. Big O #6
+  - [107-O](https://github.com/richard-1257/alx-low_level_programming/blob/master/0x1E-search_algorithms/107-O):  Text file containing the average time complexity of jump search in a singly linked list of size `n`, using `step = sqrt(n)`.
+
+- 15. Big O #7
+- [108-O](https://github.com/richard-1257/alx-low_level_programming/blob/master/0x1E-search_algorithms/108-O): Text file containing the average time complexity of jump search in a sorted skipped linked list of of size `n`, using `step = sqrt(n)`.
