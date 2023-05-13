@@ -21,47 +21,11 @@ Function Prototypes:
 | `8-delete_dnodeint.c` | `int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);` |
 
 
-- [deck.h](https://github.com/richard-1257/sorting_algorithms/blob/master/deck.h): Header file containing definitions and prototypes for all types and functions written for the task `1000-sort_deck.c`.
-
-Data Structures:
-
-```python
-typedef enum kind_e
-{
-	SPADE = 0,
-	HEART,
-	CLUB,
-	DIAMOND
-} kind_t;
-
-typedef struct card_s
-{
-	const char *value;
-	const kind_t kind;
-} card_t;
-
-typedef struct deck_node_s
-{
-	const card_t *card;
-	struct deck_node_s *prev;
-	struct deck_node_s *next;
-} deck_node_t;
-```
-
-Function Prototype:
-| File | Prototype |
-| ------------- | ------------- |
-| `1000-deck_node.c` | `void sort_deck(deck_node_t **deck);` |
-
 
 ## Tasks 📃
-- 0. Bubble sort
-     - [0-bubble_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/0-bubble_sort.c):  C function that sorts an array of integers in ascending order using the Bubble Sort algorithm.
-     - Prints the array after each swap.
-     - [0-O](https://github.com/richard-1257/sorting_algorithms/blob/master/0-O): Text file containing the best, average, and worst case time complexities of the Bubble Sort algorithm, one per line.
+- 0. Print list
+     - [0-print_dlistint.c](https://github.com/richard-1257/alx-low_level_programming/blob/master/0x17-doubly_linked_lists/0-print_dlistint.c):  C function that prints all the elements of a doubly-linked `dlistint_t` list.
+     - Returns the number of nodes in the list.
      
-- 1. Insertion sort
-     - [1-insertion_sort_list.c](https://github.com/richard-1257/sorting_algorithms/blob/master/1-insertion_sort_list.c): C function that sorts a `listint_t` doubly-linked list of integers in ascending order using the Insertion Sort algorithm.
-     - Prints the list after each swap.
-     - [1-O](https://github.com/richard-1257/sorting_algorithms/blob/master/1-O): Text file containing the best, average, and worst case time complexities of the Insertion Sort algorithm, one per line.
-     
+- 1. List length
+     - [1-dlistint_len.c](https://github.com/richard-1257/alx-low_level_programming/blob/master/0x17-doubly_linked_lists/1-dlistint_len.c): C function that returns the number of nodes in a doubly-linked `dlistint_t` list.
