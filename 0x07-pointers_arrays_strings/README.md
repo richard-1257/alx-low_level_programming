@@ -1,3 +1,5 @@
+![like_pointer](https://github.com/richard-1257/alx-low_level_programming/assets/83041703/a303f3cb-7189-45a8-915a-e80d1c0ef659)
+
 # Pointers, Arrays and Strings
 
 This project contains __C__ tasks for learning about pointers, arrays and strings.
