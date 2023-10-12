@@ -1,3 +1,5 @@
+![aint_hard](https://github.com/richard-1257/alx-low_level_programming/assets/83041703/40ea31be-dee4-44cb-a537-5ac0afa3ce42)
+
 # Pointers, Arrays and Strings
 
 This project contains __C__ tasks for learning about pointers, arrays and strings.
