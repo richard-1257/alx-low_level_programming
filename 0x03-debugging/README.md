@@ -1,3 +1,5 @@
+![debugging](https://github.com/richard-1257/alx-low_level_programming/assets/83041703/66efc79b-53b8-406a-8f0f-85cceca40e00)
+
 # Debugging
 
 This project contains __C__ tasks for learning some debugging routines.
