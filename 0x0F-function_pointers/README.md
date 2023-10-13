@@ -1,27 +1,11 @@
-0x0F. C - Function pointers Mandatory
+# Function Pointers
 
-function_pointers.h - header file for 0-print_name.c, 1-array_iterator.c, and 2-int_index.c.
+This project contains __C__ tasks for learning about function pointers.
 
-0-print_name.c - function that prints a name using a function given as a parameter.
+## Tasks Completed
 
-1-array_iterator.c - function that executes a function given as a parameter on each element of an array.
-
-2-int_index.c - function that searches for an integer using a comparative function given as a parameter.
-
-3-calc.h - header file for 3-main.c, 3-op_functions.c, and 3-get_op_func.c.
-
-3-main.c - performs simple operations passed in as parameters.
-
-3-op_functions.c - contains the following 5 functions:
-
-int op_add(int a, int b) - returns the sum of a and b.
-int op_sub(int a, int b) - returns the difference of a and b.
-int op_mul(int a, int b) - returns the product of a and b.
-int op_div(int a, int b) - returns the result of the division of a by b.
-int op_mod(int a, int b) - returns the remainder of the division of a by b.
-
-3-get_op_func.c - selects the correct function from 3-op_functions.c to perform the operation asked by the user.
-
-Advanced
-
-100-main_opcodes.c - prints the opcodes of its own main function up to a specified number of bytes.
++ [x] 0\. What's my name<br/>_**[0-print_name.c](0-print_name.c)**_ contains a function that prints a name.
++ [x] 1\. If you spend too much time thinking about a thing, you'll never get it done<br/>_**[1-array_iterator.c](1-array_iterator.c)**_ contains a function that executes a function given as a parameter on each element of an array.
++ [x] 2\. To hell with circumstances; I create opportunities<br/>_**[2-int_index.c](2-int_index.c)**_ contains a function that searches for an integer.
++ [x] 3\. A goal is not always meant to be reached, it often serves simply as something to aim at<br/>_**[3-main.c](3-main.c)**_ contains a program that performs simple operations.
++ [x] 4\. Most hackers are young because young people tend to be adaptable. As long as you remain adaptable, you can always be a good hacker<br/>_**[100-main_opcodes.c](100-main_opcodes.c)**_ contains a program that prints the [opcodes](https://en.wikipedia.org/wiki/Opcode) of its own main function.
