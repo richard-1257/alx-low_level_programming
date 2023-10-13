@@ -1,27 +1,16 @@
-0x14-bit_manipulation
+![bit_manipulation](https://github.com/richard-1257/alx-low_level_programming/assets/83041703/e7ae091b-1a1a-480a-ab49-3d427b60592b)
 
-About
-An introductory project on:
+# Bit Manipulation
 
-* Bit manipulation
-* Bitwise operators
+This project contains __C__ tasks for learning about bit manipulation.
 
-File Descriptions
+## Tasks Completed
 
-Mandatory
-0-binary_to_uint.c - function that converts a binary number to an unsigned int.
-
-1-print_binary.c - function that prints the binary representation of a number.
-
-2-get_bit.c - function that returns the value of a bit at a given index.
-
-3-set_bit.c - function that sets the value of a bit to 1 at a given index.
-
-4-clear_bit.c - function that sets the value of a bit to 0 at a given index.
-
-5-flip_bits.c - function that returns the number of bits you would need to flip to get from one number to another.
-
-Advanced
-100-get_endianness.c - function that checks the endianness.
-
-101-password - finds the password for this program and saves it in a file.
++ [x] 0\. 0<br/>_**[0-binary_to_uint.c](0-binary_to_uint.c)**_ contains a function that converts a binary number to an `unsigned int`.
++ [x] 1\. 1<br/>_**[1-print_binary.c](1-print_binary.c)**_ contains a function that prints the binary representation of a number.
++ [x] 2\. 10<br/>_**[2-get_bit.c](2-get_bit.c)**_ contains a function that returns the value of a bit at a given index.
++ [x] 3\. 11<br/>_**[3-set_bit.c](3-set_bit.c)**_ contains a function that  sets the value of a bit to `1` at a given index.
++ [x] 4\. 100<br/>_**[4-clear_bit.c](4-clear_bit.c)**_ contains a function that sets the value of a bit to `0` at a given index.
++ [x] 5\. 101<br/>_**[5-flip_bits.c](5-flip_bits.c)**_ contains a function that returns the number of bits you would need to flip to get from one number to another.
++ [x] 6\. Endianness<br/>_**[100-get_endianness.c](100-get_endianness.c)**_ contains a function that checks the endianness.
++ [x] 7\. Crackme3<br/>_**[101-password](101-password)**_ contains the password for [this program](crackme3).
